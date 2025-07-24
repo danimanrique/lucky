@@ -21,7 +21,6 @@
 
 - [React.js](https://reactjs.org/)
 - [Vite](https://vitejs.dev/) (para desarrollo rápido)
-- [Axios](https://axios-http.com/) (para llamadas HTTP)
 - Posible integración futura con:
   - [InstaLoader](https://instaloader.github.io/) para cargar comentarios (via backend)
   - [Firebase](https://firebase.google.com/) o supabase para guardar resultados
@@ -39,13 +38,6 @@
   <img src="./public/screenshots/4.png" alt="Captura de LuckyDraw" width="600"/>
 </p>
 
-
----
-
-## 🚀 Tecnologías utilizadas
-
-- **React** (con Vite)
-- **TypeScript**
 
 ---
 
