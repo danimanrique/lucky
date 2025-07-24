@@ -97,14 +97,6 @@ const App: React.FC = () => {
     setGiveawayResult(null);
   }, []);
 
-  // Guardar resultado (simulado)
-  const handleSaveResult = useCallback(async (result: GiveawayResult) => {
-    // Simular guardado en base de datos
-    await new Promise(resolve => setTimeout(resolve, 1000));
-    console.log('Resultado guardado:', result);
-    // En una implementación real, aquí harías la llamada al backend
-  }, []);
-
   // Resetear aplicación
   const handleReset = useCallback(() => {
     setCurrentState('input');
@@ -224,7 +216,6 @@ const App: React.FC = () => {
               <Winner 
                 giveawayResult={giveawayResult}
                 onNewGiveaway={handleNewGiveaway}
-                onSaveResult={handleSaveResult}
                 showConfetti={true}
               />
               
